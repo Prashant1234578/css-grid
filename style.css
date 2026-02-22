@@ -1,0 +1,63 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    
+    main {
+        height: 100%;
+        width: 100%;
+        background-color: #222;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70px 1fr 1fr;
+        grid-template-areas: "header header" "aside section" "figure figure";
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    header {
+        background-color: aquamarine;
+        grid-area: header;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    section {
+        background-color: blue;
+        grid-area: section;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    aside {
+        background-color: rgb(166, 238, 32);
+        grid-area: aside;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    figure {
+        background-color: rgb(168, 22, 120);
+        grid-area: figure;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
